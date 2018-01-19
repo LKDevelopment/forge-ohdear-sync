@@ -14,10 +14,12 @@ import store from './api_token_store';
 
 import StartPage from './components/StartPage';
 import AddCredentials from './components/AddCredentials'
+import SelectSites from './components/SelectSyncableSites'
 
 const routes = [
     {path: '/', component: StartPage},
-    {path: '/credentials', component: AddCredentials}
+    {path: '/credentials', component: AddCredentials},
+    {path: '/select', component: SelectSites}
 ]
 
 // 3. Create the router instance and pass the `routes` option

@@ -37,6 +37,9 @@ export default new Vuex.Store({
         },
         ohdearApiKey({ohdear_api_key}){
             return ohdear_api_key;
+        },
+        forgeApiKey({forge_api_key}){
+            return forge_api_key;
         }
     }
 })
