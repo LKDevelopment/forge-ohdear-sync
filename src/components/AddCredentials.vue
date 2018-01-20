@@ -89,7 +89,7 @@
             goToSites: function () {
                 this.$store.commit('setOhDearTeamId', {team_id: this.ohdear_team_id});
                 this.$store.commit('setForgeApiKey', {api_key: this.forge_api_key});
-                this.$route.push('select');
+                this.$router.push('select');
             }
         },
         computed: {
