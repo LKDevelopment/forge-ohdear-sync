@@ -49,14 +49,11 @@
 
 <script>
   import ForgeApi from './../apis/forge_api';
-  import SyncSite from './syncSite';
+
   import OhDearApi from './../apis/ohdearapi';
 
   export default {
     name: "select-syncable-sites",
-    components: {
-      SyncSite
-    },
     data() {
       return {
         sites: [],
