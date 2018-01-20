@@ -1,6 +1,6 @@
 <template>
     <div v-if="isLoading" class="text-center text-grey">
-        <i class="fas fa-spin fa-spinner"></i>
+        <i class="fas fa-spin fa-spinner fa-3x"></i>
     </div>
 </template>
 
