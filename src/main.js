@@ -15,7 +15,7 @@ import store from './api_token_store';
 import StartPage from './components/StartPage';
 import AddCredentials from './components/AddCredentials'
 import SelectSites from './components/SelectSyncableSites'
-import SyncSite from './components/syncSite';
+import SyncSite from './components/SyncSite';
 
 Vue.component(SyncSite);
 const routes = [
